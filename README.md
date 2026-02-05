@@ -9,7 +9,7 @@ This project provides a clean, secure foundation for building admin applications
 - Role & Permission system (via Filament Shield + Spatie Permissions)
 - 2FA / Multi-Factor Authentication (MFA) – compatible with Google Authenticator, Authy, etc.
 - User profile editing with avatar, password change, 2FA setup, browser sessions, and more
-- Ready for rapid customization and scaling
+- Ready for rapid customisation and scaling
 
 ## Features
 
@@ -21,7 +21,7 @@ This project provides a clean, secure foundation for building admin applications
 - **Edit Profile** system (using joaopaulolndev/filament-edit-profile)
 - Avatar upload support
 - Dark mode & responsive design
-- Optimized Filament caching
+- Optimised Filament caching
 - Easy to extend with additional resources, pages, and widgets
 
 ## Requirements
@@ -36,12 +36,12 @@ This project provides a clean, secure foundation for building admin applications
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-   cd YOUR-REPOSITORY
+   git clone https://github.com/mduzair025/filament-4-laravel-12-starter-kit.git
+   cd filament-4-laravel-12-starter-kit
 
 
 Default login credentials:
 Email: admin@admin.com
 Password: password
 
-Important: Change the password immediately after first login!
+Important: Change the password immediately after the first login!
