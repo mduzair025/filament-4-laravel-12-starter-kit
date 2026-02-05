@@ -38,51 +38,7 @@ This project provides a clean, secure foundation for building admin applications
    ```bash
    git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
    cd YOUR-REPOSITORY
-Install PHP dependencies
 
-composer install
-Install frontend dependencies
-
-npm install
-npm run dev          # for development
-# or
-npm run build        # for production
-Copy environment file
-
-cp .env.example .env
-Generate application key
-
-php artisan key:generate
-Configure your database in .env
-
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=your_database_name
-DB_USERNAME=your_username
-DB_PASSWORD=your_password
-Run migrations and seed initial data
-
-php artisan migrate --seed
-This command will:
-
-Create users, roles, permissions tables
-Set up columns needed for 2FA and avatars
-Create a default super admin user
-Publish Filament Shield configuration (recommended)
-
-php artisan vendor:publish --tag=shield-config
-Generate Shield permissions (run this after adding new resources)
-
-php artisan shield:generate --all
-Create storage symlink (for avatar uploads)
-
-php artisan storage:link
-Start the development server
-
-php artisan serve
-Open in your browser:
-http://127.0.0.1:8000/admin
 
 Default login credentials:
 Email: admin@admin.com
